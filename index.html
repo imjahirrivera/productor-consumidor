@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <title>Productor-Consumidor</title>
+</head>
+<body>
+    <h1 id="titulo"></h1>
+    <h3 id="progreso"></h3>
+    <div id="abajo" class="abajo">
+        <div id="jeje-1" class="espacio-1"></div>
+        <div id="jeje-2" class="espacio-2"></div>
+        <div id="jeje-3" class="espacio-3"></div>
+        <div id="jeje-4" class="espacio-4"></div>
+        <div id="jeje-5" class="espacio-5"></div>
+        <div id="jeje-6" class="espacio-6"></div>
+        <div id="jeje-7" class="espacio-7"></div>
+        <div id="jeje-8" class="espacio-8"></div>
+        <div id="jeje-9" class="espacio-9"></div>
+        <div id="jeje-10" class="espacio-10"></div>
+        <div id="jeje-11" class="espacio-11"></div>
+        <div id="jeje-12" class="espacio-12"></div>
+        <div id="jeje-13" class="espacio-13"></div>
+        <div id="jeje-14" class="espacio-14"></div>
+        <div id="jeje-15" class="espacio-15"></div>
+        <div id="jeje-16" class="espacio-16"></div>
+        <div id="jeje-17" class="espacio-17"></div>
+        <div id="jeje-18" class="espacio-18"></div>
+        <div id="jeje-19" class="espacio-19"></div>
+        <div id="jeje-20" class="espacio-20"></div>
+    </div>
+    <div id="arriba" class="arriba">
+        <div id="arriba-1" class="espacio-1"></div>
+        <div id="arriba-2" class="espacio-2"></div>
+        <div id="arriba-3" class="espacio-3"></div>
+        <div id="arriba-4" class="espacio-4"></div>
+        <div id="arriba-5" class="espacio-5"></div>
+        <div id="arriba-6" class="espacio-6"></div>
+        <div id="arriba-7" class="espacio-7"></div>
+        <div id="arriba-8" class="espacio-8"></div>
+        <div id="arriba-9" class="espacio-9"></div>
+        <div id="arriba-10" class="espacio-10"></div>
+        <div id="arriba-11" class="espacio-11"></div>
+        <div id="arriba-12" class="espacio-12"></div>
+        <div id="arriba-13" class="espacio-13"></div>
+        <div id="arriba-14" class="espacio-14"></div>
+        <div id="arriba-15" class="espacio-15"></div>
+        <div id="arriba-16" class="espacio-16"></div>
+        <div id="arriba-17" class="espacio-17"></div>
+        <div id="arriba-18" class="espacio-18"></div>
+        <div id="arriba-19" class="espacio-19"></div>
+        <div id="arriba-20" class="espacio-20"></div>
+    </div>
+    <div id="numeros" class="numeros">
+        <div id="arriba-1" class="espacio-1">1</div>
+        <div id="arriba-2" class="espacio-2">2</div>
+        <div id="arriba-3" class="espacio-3">3</div>
+        <div id="arriba-4" class="espacio-4">4</div>
+        <div id="arriba-5" class="espacio-5">5</div>
+        <div id="arriba-6" class="espacio-6">6</div>
+        <div id="arriba-7" class="espacio-7">7</div>
+        <div id="arriba-8" class="espacio-8">8</div>
+        <div id="arriba-9" class="espacio-9">9</div>
+        <div id="arriba-10" class="espacio-10">10</div>
+        <div id="arriba-11" class="espacio-11">11</div>
+        <div id="arriba-12" class="espacio-12">12</div>
+        <div id="arriba-13" class="espacio-13">13</div>
+        <div id="arriba-14" class="espacio-14">14</div>
+        <div id="arriba-15" class="espacio-15">15</div>
+        <div id="arriba-16" class="espacio-16">16</div>
+        <div id="arriba-17" class="espacio-17">17</div>
+        <div id="arriba-18" class="espacio-18">18</div>
+        <div id="arriba-19" class="espacio-19">19</div>
+        <div id="arriba-20" class="espacio-20">20</div>
+    </div>
+    <div id="abajo" class="abajo">
+        <div id="abajo-1" class="espacio-1"></div>
+        <div id="abajo-2" class="espacio-2"></div>
+        <div id="abajo-3" class="espacio-3"></div>
+        <div id="abajo-4" class="espacio-4"></div>
+        <div id="abajo-5" class="espacio-5"></div>
+        <div id="abajo-6" class="espacio-6"></div>
+        <div id="abajo-7" class="espacio-7"></div>
+        <div id="abajo-8" class="espacio-8"></div>
+        <div id="abajo-9" class="espacio-9"></div>
+        <div id="abajo-10" class="espacio-10"></div>
+        <div id="abajo-11" class="espacio-11"></div>
+        <div id="abajo-12" class="espacio-12"></div>
+        <div id="abajo-13" class="espacio-13"></div>
+        <div id="abajo-14" class="espacio-14"></div>
+        <div id="abajo-15" class="espacio-15"></div>
+        <div id="abajo-16" class="espacio-16"></div>
+        <div id="abajo-17" class="espacio-17"></div>
+        <div id="abajo-18" class="espacio-18"></div>
+        <div id="abajo-19" class="espacio-19"></div>
+        <div id="abajo-20" class="espacio-20"></div>
+    </div>
+    <div class="textos">
+        <div>
+            <h2>Productor - P<sup>↑</sup></h2>
+            <h3 id="status-productor">Dormido</h3>
+        </div>
+        <div>
+            <h2>Consumidor - C<sup>↓</sup></h2>
+            <h3 id="status-consumidor">Dormido</h3>
+        </div>
+    </div>
+</body>
+</html>
