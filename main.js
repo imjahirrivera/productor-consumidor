@@ -276,3 +276,12 @@ function eleccionAzar(){
     console.log(eleccion);
     comenzar();
 }
+
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      // Detener el setInterval al presionar "Esc"
+      clearInterval(intervalId);
+      console.log("setInterval detenido");
+    }
+});
